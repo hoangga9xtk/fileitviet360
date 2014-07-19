@@ -1,0 +1,69 @@
+ 
+#mbt-counter { 
+        padding: 10px; 
+        font-family: oswald, verdana; 
+        background-color: rgba(0, 0, 0, 0)!important; 
+        color: #FFF!important; 
+        position: absolute; 
+        left: 59%; 
+        top: 12%; 
+        font-size: 15px; 
+}
+
+        .reveal-modal h2 { 
+        position: absolute; 
+top: 5%; 
+font-family: oswald, arial; 
+font-size: 1.7em; 
+text-shadow: 2px 4px 10px #000; 
+color: #FF9D0F; 
+left: 4%; 
+}
+    
+    .reveal-modal-bg { 
+        position: fixed; 
+        height: 100%; 
+        width: 100%; 
+        background: rgba(0,0,0,.8); 
+        z-index: 100; 
+        display: none; 
+        top: 0; 
+        left: 0; 
+        } 
+    
+    .reveal-modal { 
+        visibility: hidden; 
+        left: 50%; 
+        top:170px; 
+        margin: -200px -200px -200px -600px;
+        width: 550px; 
+        height: 305px; 
+        background: rgba(51, 51, 51, 0) url(http://1.bp.blogspot.com/-DrMdgQi7Uq4/UsMDvui64fI/AAAAAAAAM3k/QLhbbmjPwnM/s1600/happy-new-year.png) no-repeat -17px 0px; 
+        position: absolute; 
+        z-index: 101; 
+        padding: 30px 40px 34px; 
+        -moz-border-radius: 8px; 
+        -webkit-border-radius: 8px; 
+        border-radius: 8px; 
+        color: #FFF; 
+        } 
+        
+    .reveal-modal.small         { width: 200px; margin-left: -140px;} 
+    .reveal-modal.medium         { width: 400px; margin-left: -240px;} 
+    .reveal-modal.large         { width: 600px; margin-left: -340px;} 
+    .reveal-modal.xlarge         { width: 800px; margin-left: -440px;} 
+    
+    .reveal-modal .close-reveal-modal { 
+        font-size: 32px; 
+line-height: 0.5; 
+position: absolute; 
+right: 25px; 
+font-weight: bold; 
+cursor: pointer; 
+bottom: 25px; 
+color: #9C6417; 
+        } 
+        
+        .reveal-modal .close-reveal-modal:hover { 
+            color:#2d2d2f; 
+        }
